@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.ts"
+    "dev": "nodemon index.ts",
+    "ts-node": "ts-node --compiler-options '{\"module\": \"CommonJS\"}'"
   },
   "dependencies": {
     "@prisma/client": "^2.24.0",
@@ -15,5 +16,6 @@
     "prisma": "^2.24.0",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
-  }
+  },
+  "devDependencies": {}
 }

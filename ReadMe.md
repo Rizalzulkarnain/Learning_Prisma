@@ -1,4 +1,4 @@
-1. yarn add prisma -D,yarn prisma init, setup your DB on ".env"
+1. yarn add prisma -D, yarn prisma init, setup your DB on ".env".
 
 2. make model on schema.prisma:
 
@@ -18,10 +18,13 @@ password String
 cars Car[]
 }
 
-`
+`, and "yarn prisma format".
 
 3. Migrate DB:
    `prisma migrate dev --name init`
+
+4. make seeding file on folder prisma, yarn add faker, and Seeding DB:
+   `yarn prisma db seed --preview-feature`
 
 - List Endpoint :
 
