@@ -23,7 +23,7 @@ cars Car[]
 3. Migrate DB:
    `prisma migrate dev --name init`
 
-4. make seeding file on folder prisma, yarn add faker, and Seeding DB:
+4. make seeding file on folder prisma, and Seeding DB:
    `yarn prisma db seed --preview-feature`
 
 - List Endpoint :
