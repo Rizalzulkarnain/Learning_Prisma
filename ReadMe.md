@@ -1,4 +1,4 @@
-1. npm install prisma --save-dev, setup your DB on ".env"
+1. yarn add prisma -D,yarn prisma init, setup your DB on ".env"
 
 2. make model on schema.prisma:
 
@@ -20,7 +20,7 @@ cars Car[]
 
 `
 
-3. seeding DB:
+3. Migrate DB:
    `prisma migrate dev --name init`
 
 - List Endpoint :
