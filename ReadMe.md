@@ -1,6 +1,6 @@
 1. yarn add prisma -D, yarn prisma init, setup your DB on ".env".
 
-2. npx prisma init, make model on schema.prisma:
+2. Make model on schema.prisma:
 
 `
 model Car {
